@@ -1,11 +1,11 @@
-function PerkenalanDiri (proops) {
+function PerkenalanDiri (props) {
     return (
         <div>
             <h2>My Bio</h2>
             <ul>
-                <li>Nama: {proops.nama} </li>
-                <li>Subdiv: {proops.subdiv} </li>
-                <li>Jurusan: {proops.jurusan} </li>
+                <li>Nama: {props.nama} </li>
+                <li>Subdiv: {props.subdiv} </li>
+                <li>Jurusan: {props.jurusan} </li>
             </ul>
         </div>
     )

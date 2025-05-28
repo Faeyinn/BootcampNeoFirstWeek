@@ -1,11 +1,11 @@
-function Buah (proops) {
+function Buah (props) {
     return (
         <div>
             <h2>My Favorite Fruit</h2>
             <ul>
-                <li>Nama: {proops.nama} </li>
-                <li>Warna: {proops.warna} </li>
-                <li>Rasa: {proops.rasa} </li>
+                <li>Nama: {props.nama} </li>
+                <li>Warna: {props.warna} </li>
+                <li>Rasa: {props.rasa} </li>
             </ul>
         </div>
     )
