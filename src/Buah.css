@@ -1,0 +1,22 @@
+.buah {
+    flex: 1;
+    background: #3D3D3D;
+    border: none;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.data-buah {
+    background-color: #6E6E6E;
+    padding: 10px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}

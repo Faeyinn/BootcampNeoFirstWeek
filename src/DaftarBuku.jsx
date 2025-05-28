@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import './DaftarBuku.css';
 
 function DaftarBuku() {
   const [daftarBuku, setDaftarBuku] = useState([
@@ -23,9 +24,9 @@ function DaftarBuku() {
   };
 
   return (
-    <div>
+    <div className ="daftar-buku">
       <h2>Daftar Buku</h2>
-      <div>
+      <div className ="input-buku">
         <input
           type="text"
           value={inputBuku}
@@ -38,18 +39,20 @@ function DaftarBuku() {
         </button>
       </div>
 
-      <h3>Buku Tersimpan:</h3>
-      {daftarBuku.length === 0 ? (
-        <p>Belum ada buku dalam daftar.</p>
-      ) : (
-        <ul>
-          {daftarBuku.map((buku, index) => (
-            <li key={index}>
-              {buku}
-            </li>
-          ))}
-        </ul>
-      )}
+      <div className = "buku-tersimpan">
+        <h3>Buku Tersimpan:</h3>
+        {daftarBuku.length === 0 ? (
+          <p>Belum ada buku dalam daftar.</p>
+        ) : (
+          <ul>
+            {daftarBuku.map((buku, index) => (
+              <li key={index}>
+                {buku}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }

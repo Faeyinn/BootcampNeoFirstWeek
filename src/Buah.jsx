@@ -1,12 +1,16 @@
+import './Buah.css'
+
 function Buah (props) {
     return (
-        <div>
+        <div className = "buah">
             <h2>My Favorite Fruit</h2>
-            <ul>
-                <li>Nama: {props.nama} </li>
-                <li>Warna: {props.warna} </li>
-                <li>Rasa: {props.rasa} </li>
-            </ul>
+            <div className = "data-buah">
+                <ul>
+                    <li>Nama: {props.nama} </li>
+                    <li>Warna: {props.warna} </li>
+                    <li>Rasa: {props.rasa} </li>
+                </ul>
+            </div>
         </div>
     )
 }
