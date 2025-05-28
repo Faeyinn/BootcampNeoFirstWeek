@@ -21,10 +21,8 @@ function App() {
       </div>
       <h1>Bootcamp First Week</h1><hr />
 
-      <PerkenalanDiri nama = "Fajar" subdiv = "Web" jurusan = "Tekkom" />
-      <hr />
-      <Buah nama = "Apel" warna = "Merah" rasa = "Manis" />
-      <hr />
+      <PerkenalanDiri nama = "Fajar" subdiv = "Web Programming" jurusan = "Teknik Komputer" /><hr />
+      <Buah nama = "Apel" warna = "Merah" rasa = "Manis" /><hr />
       <DaftarBuku /><hr />
 
       <div className="card">
