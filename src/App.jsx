@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Beranda from './Pages/Beranda';
-import DetailArtikel from './Pages/DetailArtikel';
-import TentangSaya from './Pages/TentangSaya';
-import Kontak from './Pages/Kontak';
-import NotFound from './Pages/NotFound';
-import Navigasi from './Components/Navigasi';
+import Beranda from './pages/Beranda';
+import DetailArtikel from './pages/DetailArtikel';
+import TentangSaya from './pages/TentangSaya';
+import Kontak from './pages/Kontak';
+import NotFound from './pages/NotFound';
+import Navigasi from './components/Navigasi';
 import './App.css';
 
 const App = () => {
